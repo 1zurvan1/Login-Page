@@ -1,0 +1,86 @@
+html {
+    font-size: 100%;
+    font-family: vazir;
+}
+body {
+    background-color: #080710;
+display: flex;
+justify-content: center;
+align-items: center;
+height: 100vh;
+font-family: cursive;
+}
+div.fff {
+position: relative;
+}
+.circle {
+position: absolute;
+z-index: -1;
+}
+.container {
+    background-color: rgba(255, 255, 255, .13);
+    width: 300px;
+    color: white;
+    border-radius: .7rem;
+   padding: 1rem 2rem;
+   box-shadow: -4px 9px 2px rgba(0, 0, 0, .3);
+  backdrop-filter: blur(10px);
+
+}
+
+.container h1 {
+    color: white;
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 1.5rem;
+
+}
+.form {
+    display: block;
+    box-shadow: 0 0 0;
+}
+.form input {
+    width: 100%;
+    margin-bottom: 1rem;
+    background-color: rgb(180, 180, 180);
+    border: none;
+    outline: none;
+    padding: 0.5em;
+    border-radius: .5rem;
+    margin-top: .5rem;
+}
+
+.circle-one {
+    width: 100px;
+    height: 100px;
+    background: #2980B9;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #FFFFFF, #6DD5FA, #2980B9);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #bdebec, #6DD5FA, #2980B9); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */    
+    border-radius: 50%;
+    top: -55px;
+    left: -34px;
+ }
+ .circle-two {
+    width: 100px;
+    height: 100px;
+    background: #f12711;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #f5af19, #f12711);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #f5af19, #f12711); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */    
+    border-radius: 50%;
+    bottom: -51px;
+    right: -50px;
+
+ }
+ div button {
+     width: 100%;
+     padding: .4rem;
+     font-family: inherit;
+     font-size: 1rem;
+     font-weight: bold;
+    border-radius: .3rem;
+    border: none;
+ }
+ .form input::placeholder {
+     font-family: inherit;
+     font-weight: bold;
+ }
